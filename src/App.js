@@ -1,6 +1,21 @@
+import CompositionContainer from './CompositionContainer';
+import ArticleImage from './ArticleImage';
+import ButtonList from './ButtonList';
+import ListOfLinks from './ListOfLinks';
+
 function App() {
   return (
-    <h1>Hello from App</h1>
+    <div>
+      <CompositionContainer title='Space Ventures'>
+        <ArticleImage />
+      </CompositionContainer>
+      <CompositionContainer title='Tags'>
+        <ButtonList />
+      </CompositionContainer>
+      <CompositionContainer title='Docs Links'>
+        <ListOfLinks />
+      </CompositionContainer>
+    </div>
   );
 }
 
