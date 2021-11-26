@@ -10,6 +10,6 @@ export const buttonData = [
     id: 3,
     name: 'Answer',
     backgroundColor: 'hsl(85, 17%, 50%)',
-    color: 'hsl(61, 100%, 94%)',
+    color: 'hsl(41, 97%, 64%)',
   },
 ];
